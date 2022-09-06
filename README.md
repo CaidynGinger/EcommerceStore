@@ -107,31 +107,27 @@ Run the following in the command-line to install all the required dependencies:
 ## Features and Functionality
 
 <!-- note how you can use your gitHub link. Just make a path to your assets folder -->
-![image2](https://github.com/CaidynGinger/SatelliteVision/blob/main/ImagesForReadMe/Dashboard_Page.png)
+![image2](https://github.com/CaidynGinger/EcommerceStore/blob/main/mockups/Frame%202.png)
 
-### The top 100 most popular satellites
+### Primative Login
 
-using the TLE api we have collected the top 100 satellites to be explored and see the data associated to each satellite!
+Ginger industries has a login system. it does not use JWT but attempts to try make a soficticated login. currently there is a way to show and hide compoentes baced on the user authentication level and the login button changes.
 
-![image3](https://github.com/CaidynGinger/SatelliteVision/blob/main/ImagesForReadMe/Dashboard_Page.png)
+However moving forward I would imagin makeing the loged in state server side and not client side would be more secure and every like change can run a authentication to check if the user is loged in and if they have the correct rights to move to the new page 
+
+![image3](https://github.com/CaidynGinger/EcommerceStore/blob/main/mockups/Frame%205.png)
 ### Feature 1
 
-The dashboard contains charts and maps the 
-- The first chart shows the satellites launched each year
-- The second chart shows the satellites revaluations per day over the satellites revolutions total
-- The map shows the locations of 20 satellites 
+All Ships pulles details 
+- The all ships page will pull all details from the server that then can be passed to the indevidule page. 
 
-![image4](https://github.com/CaidynGinger/SatelliteVision/blob/main/ImagesForReadMe/Dashboard_Page.png)
+![image4](https://github.com/CaidynGinger/EcommerceStore/blob/main/mockups/Frame%204.png)
 ### Feature 2
 
-The Comparison page contains a satellite list where you can add up to 4 satellites and view their respective data sets in relation to one another
+Animations 
 
-![image5](https://github.com/CaidynGinger/SatelliteVision/blob/main/ImagesForReadMe/comparison_page.png)
-### Feature 3
-
-The Timeline page contains a satellite list where you can any amount of satellites and view their respective data sets in relation to one another
-
-![image5](https://github.com/CaidynGinger/SatelliteVision/blob/main/ImagesForReadMe/Timeline_page.png)
+- Trying to animate React can be difficult as the dom creates and removes components and having components animate will require them to be rendered first and then animated.
+- there might be a way around this issue however for now all modals like the login are rendered and are just positioned off screen then new CSS is applied to animate the modal shifting onto the screen
 
 <!-- DEVELOPMENT PROCESS -->
 ## Development Process
@@ -142,19 +138,17 @@ The `Development Process` is the technical implementations and functionality don
 <!-- stipulate all of the functionality you included in the project -->
 <!-- This is your time to shine, explain the technical nuances of your project, how did you achieve the final outcome!-->
 
-* Utilized React `Charts.JS` dependency for Data visualization
-* Implemented Routing with `React-Router v6`.
-* API End Point: [link Here](https://tle.ivanstanojevic.me/#/) 
+* Utilized Express for comunication between MongoDB and react front end
+* Created Login system with bcrypt
+* Created backend services with Node JS 
 
 #### Highlights
 <!-- stipulated the highlight you experienced with the project -->
-* What was good about this project, what did you learn.
-* What aspects did you enjoy.
-* 
+* Finally working with full stck has opened my eye to how complex systems can be
 
 #### Challenges
 <!-- stipulated the challenges you faced with the project and why you think you faced it or how you think you'll solve it (if not solved) -->
-* understanding how data is passed from one component to the next and how pointers to functions work
+* Working with react component architecture can be difficult to separate what the component is and what it displays should a product card know what it will receive or will it work with what its got? Building with the final look in mind can cause bad coding decisions like wrong prop values passed ETC
 
 
 #### Above And Beyond
@@ -166,18 +160,23 @@ What aspects of this final build contribute to the `Above And Beyond` Component 
 ### Future Implementation
 <!-- stipulate functionality and improvements that can be implemented in the future. -->
 
-* turn the satellite locations map into a live and constantly updating ui element.
+* Finish project
+  - add the ability to edit products
+  - add the ability to add images
+  - change login to be JWT authenticated
+  - add orders page
+  - animate main carousel 
 
 <!-- MOCKUPS -->
 ## Final Outcome
 
 ### Mockups
 
-![image9](https://github.com/CaidynGinger/SatelliteVision/blob/main/ImagesForReadMe/Timeline_page.png)
+![image9](https://github.com/CaidynGinger/EcommerceStore/blob/main/mockups/Mockup%20main.png)
 <br>
-![image10](https://github.com/CaidynGinger/SatelliteVision/blob/main/ImagesForReadMe/comparison_page.png)
+![image10](https://github.com/CaidynGinger/EcommerceStore/blob/main/mockups/Frame%201.png)
 <br>
-![image10](https://github.com/CaidynGinger/SatelliteVision/blob/main/ImagesForReadMe/extra_comparison_page.png)
+![image10](https://github.com/CaidynGinger/EcommerceStore/blob/main/mockups/Frame%204.png)
 
 <!-- VIDEO DEMONSTRATION -->
 ### Video Demonstration
@@ -187,7 +186,7 @@ To see a run through of the application, click below:
 [View Demonstration](https://youtu.be/koikoEEh97c)
 
 
-See the [open issues](https://github.com/CaidynGinger/SatelliteVision/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/CaidynGinger/EcommerceStore/issues) for a list of proposed features (and known issues).
 
 <!-- AUTHORS -->
 ## Authors
@@ -203,11 +202,10 @@ Distributed under the MIT License. See `LICENSE` for more information.\
 ## Contact
 
 * **Caidyn Ginger** - [21100204@virtualwindow.co.za](mailto:21100204@virtualwindow.co.za) 
-* **Project Link** - https://github.com/CaidynGinger/SatelliteVision
+* **Project Link** - https://github.com/CaidynGinger/EcommerceStore
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 <!-- all resources that you used and Acknowledgements here -->
-* [Loading Animation](https://codepen.io/ppsirius/pen/vKEeeq)
-* [Landing page image](https://www.artstation.com/artwork/KO400B)
+* [Products](https://robertsspaceindustries.com/pledge/ships)
 
