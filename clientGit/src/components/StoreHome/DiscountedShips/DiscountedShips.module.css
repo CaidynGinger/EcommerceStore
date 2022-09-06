@@ -1,0 +1,91 @@
+.DiscountedShips{
+    width: calc(70% - 50px);
+    background-color: #140e0e;
+    margin: 60px auto;
+    border-bottom: 1px solid #b21919;
+    border-top: 1px solid #b21919;
+}
+
+.title_container{
+    padding: 0 20px;
+}
+
+.title_container h1{
+    display: inline-block;
+    position: relative;
+    font-weight: 300;
+    margin: 0;
+}
+.arrows{
+    color: #ee0c0c;
+    text-shadow:
+    0 0 7px rgb(82, 82, 82),
+    0 0 10px #f00,
+    0 0 21px #f00,
+    0 0 42px #df2020;
+}
+
+.card{
+    height: 80%;
+    background-color: rgb(29, 29, 29);
+    width: 25%;
+    display: inline-block;
+    margin: 20px;
+    border-left: 1px solid #b21919;
+    position: relative;
+}
+
+.card_container{
+    width: 100%;
+    height: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: stretch;
+    
+}
+
+.product_image{
+    width: 100%;
+    height: 40%;
+    object-fit: cover;
+}
+
+.button{
+    width: 50%;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    margin-right: 10px;
+}
+
+.title{
+    font-size: 18px;
+    margin: 0px;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.discounted{
+    font-size: 15px;
+    margin: 0px;
+    margin-left: 10px;
+}
+
+.price{
+    font-size: 20px;
+    margin: 0;
+    position: absolute;
+    top: 200px;
+    left: 10px;
+}
+
+.old_price{
+    text-decoration: line-through #b21919;
+    position: absolute;
+    top: 200px;
+    left: 80px;
+    font-size: 15px;
+}

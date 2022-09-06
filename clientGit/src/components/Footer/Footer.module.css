@@ -1,0 +1,28 @@
+.logo_container{
+    padding-top: 50px;
+    margin: auto;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: stretch;
+    max-width: 1200px;
+}
+
+.logo{
+    height: 80px;
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+    margin: 15px;
+}
+
+.logo img{
+    height: 100%;
+}
+
+.footer{
+    padding-bottom: 50px;
+    background-color: #140e0e;
+}

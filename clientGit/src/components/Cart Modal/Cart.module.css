@@ -1,0 +1,67 @@
+.cart_modal_background{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.0);
+    z-index: 1000;
+    right: -100vw;
+    top: 0;
+    transition: background-color 0.3s ease-in-out;
+    transition: right 0s ease-in-out;
+}
+
+.cart_modal_background_show{
+    background-color: rgba(0, 0, 0, 0.6);
+    right: 0vw;
+}
+
+.cart_container{
+    position: fixed;
+    width: 25vw;
+    height: 100vh;
+    background-color: #1f1f1f;
+    right: -100vw;
+    top: 0;
+    z-index: 1001;
+    transition: all 0.2s ease-in-out;
+}
+
+.show_cart{
+    right: 0;
+}
+
+.cart_btn{
+    width: 48px;
+    height: 48px;
+    background-color: rgb(51, 51, 51);
+    position: fixed;
+    right: 40px;
+    top: 100px;
+    cursor: pointer;
+    padding: 4px;
+    z-index: 999;
+    border-radius: 5px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.26);
+}
+
+.badge{
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    margin: 0;
+    height: 20px;
+    text-align: center;
+    width: 20px;
+    background-color: #701313;
+    border-radius: 100px;
+}
+
+.cart_btn svg{
+    color: #bb0f0f;
+}
+
+.badge_text{
+    font-size: 14px;
+    margin: 0;
+    margin-top: -4px;
+}

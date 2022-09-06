@@ -1,0 +1,84 @@
+.slide_styles_container{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.arrow_style{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    color: #ee0c0c;
+    text-shadow:
+    0 0 7px rgb(82, 82, 82),
+    0 0 10px #f00,
+    0 0 21px #f00,
+    0 0 42px #df2020;
+    z-index: 3;
+    font-size: 70px;
+}
+
+.left_arrow_styles{
+  left: 80px; 
+}
+
+.right_arrow_styles{
+    right: 80px;
+    
+}
+
+.slide_container{
+    position: relative;
+}
+
+.slide{
+    height: 100%;
+    position: absolute;
+    width: 70%;
+    background-position: center;
+    background-size: cover;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.support_slide{
+    height: 70%;
+}
+
+.left_slide{
+    left: -20%;
+}
+
+.right_slide{
+    left: 120%;
+}
+
+.gradient{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 2;
+}
+
+/* .gradient_darker{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 2;
+} */
+
+/* .slide_styles_right_helper{
+    position: absolute;
+    right: -100%;
+    width: 70%;
+    top: 50%;
+    transform: translate(0, -50%);
+    height: 80%;
+    background-position: center;
+    background-size: cover;
+    z-index: 0;
+} */

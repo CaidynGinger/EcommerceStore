@@ -1,0 +1,79 @@
+.header_brand_logo{
+    width: 100%;
+    height: 48px;
+    background-color: #201212;
+}
+
+.brand_menu{
+    border-top: 1px solid #b21919;
+    width: 100%;
+    display: flex;
+    z-index: 100;
+}
+.left{
+    height: 64px;
+    width: 18%;
+    border-bottom: 1px solid #b21919;
+    position: relative;
+    background-color: #140202;
+    z-index: 10;
+}
+
+.right{
+    width: 82%;
+    height: 54px;
+    background-color: #140202;
+    border-bottom: 1px solid #b21919;
+}
+
+.decor{
+    position: absolute;
+    right: -7px;
+    bottom: 1px;
+    width: 10px;
+    border: #d31313 1px solid;
+    height: 6px;
+    background-color: #ee0c0c;
+    /* transform: rotateY(0deg) rotate(-45deg); */
+    transform: skewX(-45deg) rotateY(0) rotate(90deg);
+    box-shadow:
+    0 0 7px #f00,
+    0 0 10px #f00,
+    0 0 21px #f00,
+    0 0 42px #df2020;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.header_ghost{
+    width: 100%;
+    height: 64px;
+}
+
+.left p{
+    font-size: 30px;
+    margin: 0;
+    margin-left: 60px;
+    margin-top: 3px;
+    cursor: pointer;
+}
+
+.left p:hover{
+    text-decoration: underline white 2px;
+}
+.login_btn{
+    text-align: right;
+    font-size: 20px;
+    margin: 0px;
+    margin-top: 10px;
+    margin-right: 120px;
+    cursor: pointer;
+}
+
+.login_btn:hover{
+    text-decoration: underline white 1px;
+}

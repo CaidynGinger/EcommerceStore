@@ -1,0 +1,112 @@
+.brand_menu_store_main{
+    position: relative;
+    z-index: 100;
+}
+
+.brand_menu{
+    border-top: 1px solid #b21919;
+    width: 100%;
+    display: flex;
+    z-index: 100;
+}
+.left{
+    height: 64px;
+    width: 14%;
+    border-bottom: 1px solid #b21919;
+    position: relative;
+    background-color: #140202;
+}
+
+.main{
+    height: 54px;
+    width: calc(100% - 14% - 14%);
+    background-color: #140202;
+    border-bottom: 1px solid #b21919;
+}
+
+.right{
+    position: relative;
+    width: 14%;
+    height: 64px;
+    background-color: #140202;
+    border-bottom: 1px solid #b21919;
+}
+
+.decor{
+    position: absolute;
+    width: 10px;
+    border: #d31313 1px solid;
+    height: 6px;
+    background-color: #ee0c0c;
+    /* transform: rotateY(0deg) rotate(-45deg); */
+    bottom: 1px;
+    box-shadow:
+    0 0 7px #f00,
+    0 0 10px #f00,
+    0 0 21px #f00;
+    z-index: 1;
+}
+
+.decor_right{
+    left: -7px;
+    transform: skewX(45deg) rotateY(0) rotate(90deg);
+}
+
+.decor_left{
+    right: -7px;
+    transform: skewX(-45deg) rotateY(0) rotate(90deg);
+}
+
+.sticky {
+    position: fixed;
+    top: 55px;
+    width: 100%;
+    z-index: 10;
+}
+
+.sticky_spacing{
+    width: 100%;
+    height: 64px;
+}
+
+.main_link_main{
+    margin: 0;
+    font-family: 'Cairo', sans-serif;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-left: 20px; 
+    font-size: 20px;
+}
+
+.main_link{
+    margin: 0;
+    font-family: 'Cairo', sans-serif;
+    font-weight: 200;
+    margin-top: 14px;
+    margin-left: 40px;
+    color: white;
+    
+}
+
+.main_link_a{
+    text-decoration: none;
+}
+
+.main_link:hover{
+    margin: 0;
+    font-family: 'Cairo', sans-serif;
+    font-weight: 300;
+    text-decoration: underline solid 1px white;
+    margin-top: 14px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+.main ul{
+    list-style: none;
+    margin: 0;
+}
+
+.main ul li{
+    display: inline-block;
+}

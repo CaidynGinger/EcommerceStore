@@ -1,0 +1,16 @@
+.form_title{
+    margin: 0;
+    padding-top: 10px;
+    margin-left: 20px;
+}
+
+.input_container{
+    max-width: 80%;
+    margin: auto;
+}
+
+.btn_container{
+    width: 30%;
+    float: right;
+    margin-right: 100px;
+}

@@ -1,0 +1,11 @@
+.first_table_detail {
+    padding-left: 24px;
+  }
+  
+  .button_container {
+    padding: 0.5rem;
+  }
+  .table_item:hover{
+    background-color: rgb(31, 16, 16);
+    cursor: pointer;
+  }
